@@ -11,7 +11,7 @@ spec:
   url: https://github.com/ccollicutt/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/eduk8s/lab-markdown-sample
+    files: github.com/ccollicutt/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
   session:
     namespaces:
       budget: small
