@@ -1,17 +1,17 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
-  name: writing-great-dockerfiles-is-hard
+  name: writing-great-dockerfiles-is-hard-staging
 spec:
-  title: Writing Great Dockerfiles is Hard
-  description: 
+  title: STAGING Writing Great Dockerfiles is Hard
+  description: It's not easy to write a good Dockerfile
   vendor: eduk8s.io
   difficulty: beginner
   duration: 60m
-  url: https://github.com/ccollicutt/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
+  url: https://github.com/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/ccollicutt/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
+    files: github.com/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
   session:
     namespaces:
       budget: small
