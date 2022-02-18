@@ -1,14 +1,14 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: writing-great-dockerfiles-is-hard
 spec:
-  title: Markdown Sample
-  description: A sample workshop using Markdown
+  title: Writing Great Dockerfiles is Hard
+  description: 
   vendor: eduk8s.io
   difficulty: beginner
-  duration: 15m
-  url: https://github.com/eduk8s/lab-markdown-sample
+  duration: 60m
+  url: https://github.com/ccollicutt/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master
     files: github.com/eduk8s/lab-markdown-sample
@@ -22,4 +22,8 @@ spec:
       console:
         enabled: true
       editor:
+        enabled: true
+      registry:
+        enabled: true
+      docker:
         enabled: true
