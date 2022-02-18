@@ -10,7 +10,7 @@ spec:
   duration: 60m
   url: https://github.com/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
   content:
-    #image: quay.io/eduk8s/lab-markdown-sample:master
+    image: http://quay.io/eduk8s/jdk11-environment:latest
     files: github.com/ccollicutt/lc-workshops-writing-great-dockerfiles-is-hard
   session:
     namespaces:
