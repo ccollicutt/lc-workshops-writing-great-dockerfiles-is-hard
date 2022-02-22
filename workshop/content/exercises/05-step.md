@@ -2,6 +2,7 @@ Official images can save a lot of time spent on maintenance because all the inst
 
 ```editor:replace-text-selection
 file: ~/demo/Dockerfile
+line: 1
 text: |
     FROM openjdk
     COPY helloworld/target/helloworld-0.0.1-SNAPSHOT.jar /app/
