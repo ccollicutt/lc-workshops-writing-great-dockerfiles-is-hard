@@ -1,6 +1,6 @@
 Official images can save a lot of time spent on maintenance because all the installation steps are done for you and best practices are applied. If you have multiple projects, they can share those layers because they use exactly the same base image.
 
-```editor:replace-text-selection
+```editor:append-to-lines-to-file
 file: ~/demo/Dockerfile
 line: 1
 text: |
