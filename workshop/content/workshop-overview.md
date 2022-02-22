@@ -1,1 +1,3 @@
-This is the initial landing page for your workshop. Include in this page a description of what your workshop is about.
+In this workshop we'll easily create a Dockerfile...in 19 steps.
+
+Please note that this workshop was based on the blog post [Write a Good Dockerfile in 19 'Easy' Steps](https://jkutner.github.io/2021/04/26/write-good-dockerfile.html).

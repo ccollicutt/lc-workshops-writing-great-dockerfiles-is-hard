@@ -1,37 +1,18 @@
-First, let's build the jar file.
+The order of commands in a Dockerfile determines when a command’s cache is invalidated. Changing files or modifying lines in the Dockerfile will break subsequent steps of the cache. You must order your commands from least to most frequently changing steps to optimize your Dockerfile caching.
 
-```terminal:execute
-command: cd ~/demo/helloworld; mvn clean install
-```
-
-Now, review the Dockerfile
-
-```editor:open-file
-file: ~/demo/Dockerfile
+```editor:replace-text-selection
+file: ~/exercises/sample.txt
+text: |
+    FROM debian
+    RUN apt-get update -y
+    RUN apt-get -y install openjdk-11-jdk -y
+    # We moved this line to the end
+    COPY ./helloworld /app
+    CMD [ "java", "-jar", "/app/target/helloworld-0.0.1-SNAPSHOT.jar"]
 ```
 
 And build the Docker image.
 
 ```terminal:execute
 command: cd ~/demo; docker build -t helloworld:1
-```
-
-Run it:
-
-```terminal:execute
-command: docker run -p 8080:8080 helloworld:1
-session: 2
-```
-
-And curl that port:
-
-```terminal:execute
-command: curl localhost:8080
-```
-
-Stop the Docker container.
-
-
-```terminal:interrupt
-session: 2
 ```

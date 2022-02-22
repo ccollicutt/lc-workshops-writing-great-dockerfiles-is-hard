@@ -2,11 +2,46 @@ modules:
     workshop-overview:
         name: Workshop Overview
         exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
+    exercises/00-step:
+        name: Compile the Jar File and Initial Dockerfile
     exercises/01-step:
-        name: Step One
+        name: Check the order of your commands
+    exercises/02-step:
+        name: Use specific COPY commands to limit cache busting
+    exercises/03-step:
+        name: Use “line buddies” to make sure you’re not installing older versions of packages
+    # exercises/04-step:
+    #     name: Check the order of your commands
+    # exercises/05-step:
+    #     name: Check the order of your commands
+    # exercises/06-step:
+    #     name: Check the order of your commands
+    # exercises/07-step:
+    #     name: Check the order of your commands
+    # exercises/08-step:
+    #     name: Check the order of your commands
+    # exercises/09-step:
+    #     name: Check the order of your commands
+    # exercises/10-step:
+    #     name: Check the order of your commands
+    # exercises/11-step:
+    #     name: Check the order of your commands
+    # exercises/12-step:
+    #     name: Check the order of your commands
+    # exercises/13-step:
+    #     name: Check the order of your commands
+    # exercises/14-step:
+    #     name: Check the order of your commands
+    # exercises/15-step:
+    #     name: Check the order of your commands   
+    # exercises/16-step:
+    #     name: Check the order of your commands
+    # exercises/17-step:
+    #     name: Check the order of your commands
+    # exercises/18-step:
+    #     name: Check the order of your commands
+    # exercises/19-step:
+    #     name: Check the order of your commands   
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
