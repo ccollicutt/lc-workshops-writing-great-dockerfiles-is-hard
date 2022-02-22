@@ -2,7 +2,6 @@ The order of commands in a Dockerfile determines when a command’s cache is inv
 
 ```editor:replace-text-selection
 file: ~/demo/Dockerfile
-line: 1
 text: |
     FROM debian
     RUN apt-get update -y
