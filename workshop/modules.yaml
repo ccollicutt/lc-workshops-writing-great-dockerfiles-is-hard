@@ -9,11 +9,11 @@ modules:
     exercises/02-step:
         name: Use specific COPY commands to limit cache busting
     exercises/03-step:
-        name: Use “line buddies” to make sure you’re not installing older versions of packages
-    # exercises/04-step:
-    #     name: Check the order of your commands
-    # exercises/05-step:
-    #     name: Check the order of your commands
+        name: Use line buddies
+    exercises/04-step:
+        name: Don't use too many line buddies
+    exercises/05-step:
+        name: Check the order of your commands
     # exercises/06-step:
     #     name: Check the order of your commands
     # exercises/07-step:
