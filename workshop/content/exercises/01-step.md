@@ -16,3 +16,4 @@ And build the Docker image.
 ```terminal:execute
 command: cd ~/demo; docker build -t helloworld:1
 ```
+

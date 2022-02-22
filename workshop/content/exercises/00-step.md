@@ -19,13 +19,13 @@ text: |
 And build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; docker build -t helloworld:1
+command: cd ~/demo; docker build -t helloworld:0
 ```
 
 Run it:
 
 ```terminal:execute
-command: docker run -p 8080:8080 helloworld:1
+command: docker run -p 8080:8080 helloworld:0
 session: 2
 ```
 

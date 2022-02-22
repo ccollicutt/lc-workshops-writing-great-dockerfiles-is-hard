@@ -13,7 +13,7 @@ modules:
     exercises/04-step:
         name: Don't use too many line buddies
     exercises/05-step:
-        name: Check the order of your commands
+        name: Use official images when possible
     # exercises/06-step:
     #     name: Check the order of your commands
     # exercises/07-step:

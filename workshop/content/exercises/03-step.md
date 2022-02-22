@@ -14,5 +14,5 @@ text: |
 And build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; docker build -t helloworld:2
+command: cd ~/demo; docker build -t helloworld:3
 ```
