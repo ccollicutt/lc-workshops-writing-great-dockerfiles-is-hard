@@ -6,7 +6,7 @@ command: cd ~/demo/helloworld; mvn clean install
 
 Now, review the Dockerfile
 
-```editor:append-to-lines-to-file
+```editor:append-lines-to-file
 file: ~/demo/Dockerfile
 line: 1
 text: |
