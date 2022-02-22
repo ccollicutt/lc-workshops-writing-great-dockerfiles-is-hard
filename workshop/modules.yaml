@@ -1,9 +1,9 @@
 modules:
     workshop-overview:
         name: Workshop Overview
-        exit_sign: Setup Environment
+        exit_sign: Compile the Jar File
     exercises/00-step:
-        name: Compile the Jar File and Initial Dockerfile
+        name: Compile the Jar File
     exercises/01-step:
         name: Check the order of your commands
     exercises/02-step:
