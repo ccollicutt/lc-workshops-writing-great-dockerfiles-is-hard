@@ -1,71 +1,37 @@
-This is an example page for exercises to be done for the workshop. You would remove this page, replace it with your own and then adjust the `workshop.yaml` and `modules.yaml` file to list your pages instead.
+First, let's build the jar file.
 
-In this example the pages which make up the core of the workshop content are placed in a sub directory. This is only done as a suggestion. You can place all pages at the same directory level if you wish.
-
-Included below are some tests and examples of page formatting using Markdown.
-
-#### Standard code block
-
-```
-echo "standard code block"
+```terminal:execute
+command: cd ~/demo/helloworld; mvn clean install
 ```
 
-#### Click text to execute
+Now, review the Dockerfile
 
-```execute
-echo "execute in terminal 1"
+```editor:open-file
+file: ~/demo/Dockerfile
 ```
 
-#### Click text to execute (with target)
+And build the Docker image.
 
-```execute-1
-echo "execute in terminal 1"
+```terminal:execute
+command: cd ~/demo; docker build -t helloworld:1
 ```
 
-```execute-2
-echo "execute in terminal 2"
+Run it:
+
+```terminal:execute
+command: docker run -p 8080:8080 helloworld:1
+session: 2
 ```
 
-```execute-all
-echo "execute in all terminals"
+And curl that port:
+
+```terminal:execute
+command: curl localhost:8080
 ```
 
-#### Click text to copy
+Stop the Docker container.
 
-```copy
-echo "copy text to buffer"
+
+```terminal:interrupt
+session: 2
 ```
-
-#### Click text to copy (and edit)
-
-```copy-and-edit
-echo "copy text to buffer"
-```
-
-#### Interrupt command
-
-```execute
-sleep 3600
-```
-
-```execute
-<ctrl-c>
-```
-
-#### Variable interpolation
-
-workshop_name: {{ workshop_name }}
-
-session_namespace: {{ session_namespace }}
-
-workshop_namespace: {{ workshop_namespace }}
-
-training_portal: {{ training_portal }}
-
-ingress_domain: {{ ingress_domain }}
-
-ingress_protocol: {{ ingress_protocol }}
-
-#### Web site links
-
-[External](https://github.com/eduk8s)
