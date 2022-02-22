@@ -1,6 +1,6 @@
 Wait, there’s more. The COPY command should be more specific than the previous example. When copying files into your image, make sure you are very specific about what you want to copy. Any changes to the files being copied will break the cache. In the example above, only the pre-built JAR file is needed inside the image and so only it needs to be copied
 
-```editor:append-lines-to-file
+```editor:replace-text-selection
 file: ~/demo/Dockerfile
 line: 1
 text: |

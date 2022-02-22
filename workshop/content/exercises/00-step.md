@@ -1,10 +1,15 @@
 First, let's build the jar file and test out the initial Dockerfile.
 
 ```terminal:execute
+command: java -version
+```
+
+
+```terminal:execute
 command: cd ~/demo/helloworld; mvn clean install
 ```
 
-Now, review the Dockerfile
+Now, review the Dockerfile. Below you can see we are using the OpenJDK 11 version of Java.
 
 ```editor:append-lines-to-file
 file: ~/demo/Dockerfile

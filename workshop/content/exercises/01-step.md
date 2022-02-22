@@ -1,6 +1,6 @@
 The order of commands in a Dockerfile determines when a command’s cache is invalidated. Changing files or modifying lines in the Dockerfile will break subsequent steps of the cache. You must order your commands from least to most frequently changing steps to optimize your Dockerfile caching.
 
-```editor:append-lines-to-file
+```editor:replace-text-selection
 file: ~/demo/Dockerfile
 line: 1
 text: |
