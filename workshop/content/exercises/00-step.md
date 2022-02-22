@@ -8,6 +8,7 @@ Now, review the Dockerfile
 
 ```editor:replace-text-selection
 file: ~/demo/Dockerfile
+line: 1
 text: |
     FROM debian
     COPY ./helloworld /app
@@ -19,7 +20,7 @@ text: |
 And build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; docker build -t helloworld:0
+command: cd ~/demo; time docker build . -t helloworld:0
 ```
 
 Run it:

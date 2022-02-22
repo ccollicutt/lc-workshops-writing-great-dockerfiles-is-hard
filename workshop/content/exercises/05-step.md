@@ -12,7 +12,7 @@ text: |
 And build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; docker build -t helloworld:5
+command: cd ~/demo; time docker build . -t helloworld:5
 ```
 
 Run it:
