@@ -1,7 +1,7 @@
 Official images can save a lot of time spent on maintenance because all the installation steps are done for you and best practices are applied. If you have multiple projects, they can share those layers because they use exactly the same base image.
 
 ```editor:replace-text-selection
-file: ~/exercises/sample.txt
+file: ~/demo/Dockerfile
 text: |
     FROM openjdk
     COPY helloworld/target/helloworld-0.0.1-SNAPSHOT.jar /app/

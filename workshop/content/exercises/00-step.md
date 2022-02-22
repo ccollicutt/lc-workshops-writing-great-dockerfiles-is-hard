@@ -7,7 +7,7 @@ command: cd ~/demo/helloworld; mvn clean install
 Now, review the Dockerfile
 
 ```editor:replace-text-selection
-file: ~/exercises/sample.txt
+file: ~/demo/Dockerfile
 text: |
     FROM debian
     COPY ./helloworld /app
