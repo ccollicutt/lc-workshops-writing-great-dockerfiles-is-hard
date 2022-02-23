@@ -4,6 +4,9 @@ modules:
         exit_sign: Minimal Images
     minimal-images:
         name: Minimal Images
+        exit_sign: Cache Invalidation
+    cache-invalidation:
+        name: Cache Invalidation
         exit_sign: Compile the Jar File
     exercises/00-step:
         name: Compile the Jar File

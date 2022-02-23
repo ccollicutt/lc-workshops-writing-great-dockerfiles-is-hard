@@ -4,6 +4,7 @@ modules:
     activate:
     - workshop-overview
     - minimal-images
+    - cache-invalidation
     - exercises/00-step
     - exercises/01-step
     - exercises/02-step
