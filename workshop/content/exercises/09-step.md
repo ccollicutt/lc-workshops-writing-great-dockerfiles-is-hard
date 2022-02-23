@@ -9,3 +9,9 @@ file: ~/demo/09.Dockerfile
 ```terminal:execute
 command: cd ~/demo; time docker build -f 09.Dockerfile . -t helloworld:9
 ```
+
+List the images.
+
+```terminal:execute
+command: docker images
+```

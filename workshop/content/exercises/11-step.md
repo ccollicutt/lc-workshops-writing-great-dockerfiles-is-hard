@@ -15,3 +15,9 @@ command: cd ~/demo; time docker build -f 11.Dockerfile . -t helloworld:11
 ```
 
 As you'll notice, we have to pull everything from maven repos every time we run this image.
+
+List the images.
+
+```terminal:execute
+command: docker images
+```

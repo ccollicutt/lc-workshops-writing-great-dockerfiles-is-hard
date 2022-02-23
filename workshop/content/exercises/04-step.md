@@ -1,5 +1,6 @@
-However, the question becomes, where does this command linking come to an end? Here's an example of a real-life massive RUN command. We don't want our Dockerfiles to become this unruly. That said, there may be situations where, based on how Dockerfiles work, there is no other solution.
+However, the question becomes, where does this command chaining come to an end? Here's an example of a real-life massive RUN command. We don't want our Dockerfiles to become this unruly. That said, there may be situations where, based on how Dockerfiles work, there is no other solution.
 
 ```editor:open-file
 file: ~/demo/04.Dockerfile
 ```
+

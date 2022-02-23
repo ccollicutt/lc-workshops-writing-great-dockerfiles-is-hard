@@ -11,21 +11,26 @@ file: ~/demo/05.Dockerfile
 command: cd ~/demo; time docker build -f 05.Dockerfile. -t helloworld:5
 ```
 
-Run it:
+List the images.
+
+```terminal:execute
+command: docker images
+```
+
+Run it.
 
 ```terminal:execute
 command: docker run -p 8080:8080 helloworld:5
 session: 2
 ```
 
-And curl that port:
+Curl it.
 
 ```terminal:execute
 command: curl localhost:8080
 ```
 
 Stop the Docker container.
-
 
 ```terminal:interrupt
 session: 2
