@@ -1,0 +1,1 @@
+Dockerfiles aren't the only way to create container images.

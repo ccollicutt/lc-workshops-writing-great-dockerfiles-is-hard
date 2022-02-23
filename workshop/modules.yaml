@@ -2,7 +2,7 @@ modules:
     workshop-overview:
         name: Workshop Overview
         exit_sign: Minimal Images
-    workshop-overview:
+    minimal-images:
         name: Minimal Images
         exit_sign: Compile the Jar File
     exercises/00-step:
