@@ -1,9 +1,9 @@
 modules:
     workshop-overview:
         name: Workshop Overview
-        exit_sign: A Word on Minimal Images
+        exit_sign: Minimal Images
     workshop-overview:
-        name: Workshop Overview
+        name: Minimal Images
         exit_sign: Compile the Jar File
     exercises/00-step:
         name: Compile the Jar File
