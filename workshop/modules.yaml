@@ -11,33 +11,33 @@ modules:
     exercises/00-step:
         name: Compile the Jar File
     exercises/01-step:
-        name: Check the order of your commands
+        name: Check the Order of Your Commands
     exercises/02-step:
-        name: Use specific COPY commands to limit cache invalidation
+        name: Use Specific COPY Commands to Limit Cache Invalidation
     exercises/03-step:
         name: Chaining Commands Together in RUN
     exercises/04-step:
-        name: Don't Chain Too Many Commands Together
+        name: But Don't Chain Too Many Commands Together
     exercises/05-step:
-        name: Use official images when possible
+        name: Use Official Images When Possible
     exercises/06-step:
-        name: Not all official images are equal
+        name: Not All Official Images Are Equal
     exercises/07-step:
-        name: Build your image from scratch
+        name: Build Your Image from Scratch
     exercises/08-step:
-        name: Use specific tags
+        name: Use Specific Tags
     exercises/09-step:
-        name: Use even more specific tags
+        name: Use Even more Specific Tags
     exercises/10-step:
-        name: Remove the package manager cache
+        name: Remove the Package Manager Cache
     exercises/11-step:
-        name: Build from source in a consistent environment
+        name: Build from Source in a Consistent Environment
     exercises/12-step:
-        name: Fetch dependencies in a separate step
-    # exercises/13-step:
-    #     name: Check the order of your commands
-    # exercises/14-step:
-    #     name: Check the order of your commands
+        name: Fetch Dependencies in a Separate Step
+    exercises/13-step:
+        name: Multi-stage Builds
+    exercises/14-step:
+        name: Dockerfile Proliferation
     # exercises/15-step:
     #     name: Check the order of your commands   
     # exercises/16-step:
