@@ -1,5 +1,5 @@
-Be careful though. Too many line buddies (i.e. chaining all commands into one RUN instruction) can bust the cache easily, hurting the development cycle. In the worst cases, you end up with RUN commands like this 114 line example from the official Python image on Docker Hub (however, this example is unavoidable because all the steps need to be one cacheable unit).
+However, the question becomes, where does this command linking come to an end? Here's an example of a real-life massive RUN command. We don't want our Dockerfiles to become this unruly. That said, there may be situations where, based on how Dockerfiles work, there is no other solution.
 
 ```editor:open-file
-file: ~/demo/04-step.txt
+file: ~/demo/04.Dockerfile
 ```

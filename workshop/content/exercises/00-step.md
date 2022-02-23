@@ -9,23 +9,16 @@ command: java -version
 command: cd ~/demo/helloworld; mvn clean install
 ```
 
-Now, review the Dockerfile. Below you can see we are using the OpenJDK 11 version of Java.
+Now, review the Dockerfile. Below you can see we are installing the OpenJDK 11 version of Java.
 
-```editor:append-lines-to-file
-file: ~/demo/Dockerfile
-line: 1
-text: |
-    FROM debian
-    COPY ./helloworld /app
-    RUN apt-get update -y
-    RUN apt-get -y install openjdk-11-jdk -y
-    CMD [ "java", "-jar", "/app/target/helloworld-0.0.1-SNAPSHOT.jar"]
+```editor:open-file
+file: ~/demo/00.Dockerfile
 ```
 
 And build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; time docker build . -t helloworld:0
+command: cd ~/demo; time docker build -f 00.Dockerfile . -t helloworld:0
 ```
 
 Run it:

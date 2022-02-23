@@ -1,33 +1,36 @@
 modules:
     workshop-overview:
         name: Workshop Overview
+        exit_sign: A Word on Minimal Images
+    workshop-overview:
+        name: Workshop Overview
         exit_sign: Compile the Jar File
     exercises/00-step:
         name: Compile the Jar File
     exercises/01-step:
         name: Check the order of your commands
     exercises/02-step:
-        name: Use specific COPY commands to limit cache busting
+        name: Use specific COPY commands to limit cache invalidation
     exercises/03-step:
-        name: Use line buddies
+        name: Chaining Commands Together in RUN
     exercises/04-step:
-        name: Don't use too many line buddies
+        name: Don't Chain Too Many Commands Together
     exercises/05-step:
         name: Use official images when possible
-    # exercises/06-step:
-    #     name: Check the order of your commands
-    # exercises/07-step:
-    #     name: Check the order of your commands
-    # exercises/08-step:
-    #     name: Check the order of your commands
-    # exercises/09-step:
-    #     name: Check the order of your commands
-    # exercises/10-step:
-    #     name: Check the order of your commands
-    # exercises/11-step:
-    #     name: Check the order of your commands
-    # exercises/12-step:
-    #     name: Check the order of your commands
+    exercises/06-step:
+        name: Not all official images are equal
+    exercises/07-step:
+        name: Build your image from scratch
+    exercises/08-step:
+        name: Use specific tags
+    exercises/09-step:
+        name: Use even more specific tags
+    exercises/10-step:
+        name: Remove the package manager cache
+    exercises/11-step:
+        name: Build from source in a consistent environment
+    exercises/12-step:
+        name: Fetch dependencies in a separate step
     # exercises/13-step:
     #     name: Check the order of your commands
     # exercises/14-step:

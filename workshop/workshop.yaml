@@ -3,11 +3,18 @@ name: Markdown Sample
 modules:
     activate:
     - workshop-overview
-    - setup-environment
+    - minimal-images
     - exercises/00-step
     - exercises/01-step
     - exercises/02-step
     - exercises/03-step
     - exercises/04-step
     - exercises/05-step
+    - exercises/06-step
+    - exercises/07-step
+    - exercises/08-step
+    - exercises/09-step
+    - exercises/10-step
+    - exercises/11-step
+    - exercises/12-step
     - workshop-summary

@@ -1,18 +1,14 @@
-Official images can save a lot of time spent on maintenance because all the installation steps are done for you and best practices are applied. If you have multiple projects, they can share those layers because they use exactly the same base image.
+We don't always have to use a base image and then install our software on top of it. Previously we were using the base debian image and then installing the openjdk ourselves. But there is an existing image that we can already use...an "official image."
 
-```editor:replace-text-selection
-file: ~/demo/Dockerfile
-line: 1
-text: |
-    FROM openjdk
-    COPY helloworld/target/helloworld-0.0.1-SNAPSHOT.jar /app/
-    CMD [ "java", "-jar", "/app/target/helloworld-0.0.1-SNAPSHOT.jar"]
+
+```editor:open-file
+file: ~/demo/05.Dockerfile
 ```
 
-And build the Docker image.
+### Build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; time docker build . -t helloworld:5
+command: cd ~/demo; time docker build -f 05.Dockerfile. -t helloworld:5
 ```
 
 Run it:

@@ -1,19 +1,14 @@
-The order of commands in a Dockerfile determines when a command’s cache is invalidated. Changing files or modifying lines in the Dockerfile will break subsequent steps of the cache. You must order your commands from least to most frequently changing steps to optimize your Dockerfile caching.
+A big part of using Dockerfiles is layer caching. If the layers don't need to change, then they shouldn't. So we want to setup our Dockerfile so that we don't invalidate the cache when making simple changes that don't require it.
 
-```editor:replace-text-selection
-file: ~/demo/Dockerfile
-text: |
-    FROM debian
-    RUN apt-get update -y
-    RUN apt-get -y install openjdk-11-jdk -y
-    # We moved this line to the end
-    COPY ./helloworld /app
-    CMD [ "java", "-jar", "/app/target/helloworld-0.0.1-SNAPSHOT.jar"]
+The example below is that if we make changes to our application, ie. the jar file, then that should invalidate the cache for that layer and the layers above it, which would mean the apt update and apt insatll commands would get run even if we're just updating our application.
+
+```editor:open-file
+file: ~/demo/01.Dockerfile
 ```
 
-And build the Docker image.
+### Build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; time docker build . -t helloworld:1
+command: cd ~/demo; time docker build -f 01.Dockerfile . -t helloworld:1
 ```
 
