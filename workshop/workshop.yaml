@@ -18,4 +18,6 @@ modules:
     - exercises/10-step
     - exercises/11-step
     - exercises/12-step
+    - exercises/13-step
+    - exercises/14-step
     - workshop-summary
