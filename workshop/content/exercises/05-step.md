@@ -8,7 +8,7 @@ file: ~/demo/05.Dockerfile
 ### Build the Docker image.
 
 ```terminal:execute
-command: cd ~/demo; time docker build -f 05.Dockerfile. -t helloworld:5
+command: cd ~/demo; time docker build -f 05.Dockerfile . -t helloworld:5
 ```
 
 List the images.

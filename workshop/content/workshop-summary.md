@@ -6,7 +6,8 @@ It would seem from the workshop that building your own Dockefiles is actually qu
 * [14 best practices for containerising your Java applications](https://www.tutorialworks.com/docker-java-best-practices/)
 * [The Quest for Minimal Docker Images, part 2](https://jpetazzo.github.io/2020/03/01/quest-minimal-docker-images-part-2/)
 * [Dockerizing Java 11](https://github.com/leapingbytes/java11-docker-tips-and-tricks)
-
+* [The Perfect Dockerfile for Python](https://luis-sena.medium.com/creating-the-perfect-python-dockerfile-51bdec41f1c8)
+* [IMPORT directive will never be implemented](https://stackoverflow.com/questions/69234878/using-shared-dockerfile-for-multiple-dockerfiles)
 
 ### Resources for Using Tanzu Build Service
 
