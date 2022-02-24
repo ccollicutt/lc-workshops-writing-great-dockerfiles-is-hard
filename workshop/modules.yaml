@@ -39,15 +39,15 @@ modules:
     exercises/14-step:
         name: Dockerfile Proliferation
     exercises/15-step:
-        name: Check the order of your commands   
+        name: Now...Update All the Dockerfiles   
     exercises/16-step:
-        name: Check the order of your commands
+        name: Unique Application Needs
     exercises/17-step:
-        name: Check the order of your commands
+        name: Build Your Own Templating Engine?
     exercises/18-step:
-        name: Check the order of your commands
-    # exercises/19-step:
-    #     name: Check the order of your commands   
+        name: Idiosyncrasies of Programming Languages
+    exercises/19-step:
+        name: Use Cloud Native Buildpacks  
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
