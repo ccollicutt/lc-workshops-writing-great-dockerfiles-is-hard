@@ -38,14 +38,14 @@ modules:
         name: Multi-stage Builds
     exercises/14-step:
         name: Dockerfile Proliferation
-    # exercises/15-step:
-    #     name: Check the order of your commands   
-    # exercises/16-step:
-    #     name: Check the order of your commands
-    # exercises/17-step:
-    #     name: Check the order of your commands
-    # exercises/18-step:
-    #     name: Check the order of your commands
+    exercises/15-step:
+        name: Check the order of your commands   
+    exercises/16-step:
+        name: Check the order of your commands
+    exercises/17-step:
+        name: Check the order of your commands
+    exercises/18-step:
+        name: Check the order of your commands
     # exercises/19-step:
     #     name: Check the order of your commands   
     workshop-summary:
