@@ -2,6 +2,6 @@ However, the question becomes, where does this command chaining come to an end? 
 
 ```editor:select-matching-text
 file: ~/demo/04.Dockerfile
-text: "RUN set -ex \"
+text: "RUN set -ex"
 after: 115
 ```
