@@ -5,4 +5,3 @@ file: ~/demo/04.Dockerfile
 text: "RUN set -ex \"
 after: 115
 ```
-
