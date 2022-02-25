@@ -1,8 +1,10 @@
-Before we get back to your package manager: do not use the latest tag, which is equivalent to not using a tag. It has the convenience of always being available for images but it can introduce breaking changes over time. It can cause a build to fail depending on how far apart in time you rebuild the Dockerfile without cache.
+Here's a key rule for using container images: don't use the "latest" tag. Always tag images with specific, meaningful image, and in fact deployments of images in your environment should not be done with latest.
 
+The same goes for using images, we shouldn't just specify something like "debian" as the base when we can be more specific, because that base image will be updated at any time.
 
-```editor:open-file
+```editor:select-matching-text
 file: ~/demo/08.Dockerfile
+text: "FROM debian:buster"
 ```
 
 ### Build the Docker image.

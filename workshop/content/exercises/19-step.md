@@ -4,8 +4,10 @@ A key part of using container images is the idea of layers. But how many layers 
 
 From here, it seems like on one hand a few simplistic layers isn't enough, but then how many should we have. The above image has an "optimized" image with many more layers, but the point of this section isn't what layers *should* be there, but how much should we optimize the image? What is the correct number of layers for a particular Java application? It's hard to say, and while there is likely a common answer, it would take an organziation a long time to get there.
 
-```editor:open-file
+```editor:select-matching-text
 file: ~/demo/19.Dockerfile
+text: "COPY --from=builder /app/dependencies/ ./"
+after: 3
 ```
 
 Build the example optimized image.

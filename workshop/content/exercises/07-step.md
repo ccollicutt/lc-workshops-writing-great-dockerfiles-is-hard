@@ -8,8 +8,10 @@ It's pretty rare that you would use scratch, especially with something like Java
 
 We can open up a complex "FROM: scratch" Dockerfile (originally taken from [here](https://github.com/surajrajanathrapully/dockerfiles/blob/master/scratch-java-scala)) which seems like it will work to have a from scratch image, but it's quite complex. Also, in this example we're using the Java 15 runtime, for a Jar that was built with 11.
 
-```editor:open-file
+```editor:select-matching-text
 file: ~/demo/07.Dockerfile
+text: "RUN jlink \"
+after: 14
 ```
 
 ### Build the Docker image.

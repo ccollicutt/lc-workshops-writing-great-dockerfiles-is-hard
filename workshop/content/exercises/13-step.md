@@ -1,7 +1,7 @@
 In the previous step we used the Maven image to build the jar file, but that means the Maven image is the one used to actually run the application. That's probably not what we want. We want one process to compile the jar and another container to run it. That's where multi-stage builds come in.
 
 ```editor:open-file
-file: ~/demo/12.Dockerfile
+file: ~/demo/13.Dockerfile
 ```
 
 ### Build the Docker image.

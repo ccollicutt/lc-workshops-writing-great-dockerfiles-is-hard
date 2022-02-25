@@ -1,8 +1,8 @@
-Whoops, buster is actually still a mutable tag. You can be even more specific:
+However, "debian:buster" is still a mutable tag, which means it can change. Let's get more specific.
 
-
-```editor:open-file
+```editor:select-matching-text
 file: ~/demo/09.Dockerfile
+text: "FROM debian:buster-20220125"
 ```
 ### Build the Docker image.
 
