@@ -5,6 +5,7 @@ The way this is accomplished is by chaining commands together with the logical A
 ```editor:select-matching-text
 file: ~/demo/03.Dockerfile
 text: "RUN apt-get update -y"
+after: 1
 ```
 
 ### Build the Docker image.
