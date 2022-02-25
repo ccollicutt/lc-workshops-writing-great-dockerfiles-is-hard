@@ -4,8 +4,9 @@ The example below is that if we make changes to our application, ie. the jar fil
 
 Here we've moved the COPY command to be **after** the apt updates.
 
-```editor:open-file
+```editor:select-matching-text
 file: ~/demo/01.Dockerfile
+text: "COPY ./helloworld /app"
 ```
 
 ### Build the Docker image.
