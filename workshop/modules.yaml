@@ -47,6 +47,8 @@ modules:
     exercises/18-step:
         name: Idiosyncrasies of Programming Languages
     exercises/19-step:
+        name: Layer Your Images 
+    exercises/20-step:
         name: Use Cloud Native Buildpacks  
     workshop-summary:
         name: Workshop Summary

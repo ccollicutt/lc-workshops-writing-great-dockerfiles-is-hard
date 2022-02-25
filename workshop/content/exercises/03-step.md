@@ -2,8 +2,10 @@ Dockerfile caching can be challenging. Here we want to reduce the number of laye
 
 The way this is accomplished is by chaining commands together with the logical AND operator in bash, written as "&&" which means that execute the next command if the previous one succeeded.
 
-```editor:open-file
+```editor:select-matching-text
 file: ~/demo/03.Dockerfile
+text: "RUN apt-get update -y \"
+after: 1
 ```
 
 ### Build the Docker image.

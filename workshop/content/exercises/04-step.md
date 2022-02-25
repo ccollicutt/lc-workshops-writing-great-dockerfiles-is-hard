@@ -2,5 +2,7 @@ However, the question becomes, where does this command chaining come to an end? 
 
 ```editor:open-file
 file: ~/demo/04.Dockerfile
+text: "RUN set -ex \"
+after: 115
 ```
 

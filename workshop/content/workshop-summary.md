@@ -12,6 +12,7 @@ Going further, you can talk to VMware and implement the Tanzu Build Service, whi
 * [Dockerizing Java 11](https://github.com/leapingbytes/java11-docker-tips-and-tricks)
 * [The Perfect Dockerfile for Python](https://luis-sena.medium.com/creating-the-perfect-python-dockerfile-51bdec41f1c8)
 * [IMPORT directive will never be implemented](https://stackoverflow.com/questions/69234878/using-shared-dockerfile-for-multiple-dockerfiles)
+* [Optimized docker images for Spring Boot applications with layering feature](https://redamessoudi.com/optimized-docker-images-for-spring-boot-apps/)
 
 ### Resources for Using Spring Boot images, Pack, and Tanzu Build Service
 
