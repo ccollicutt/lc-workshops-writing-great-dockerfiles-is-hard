@@ -10,7 +10,7 @@ We can open up a complex "FROM: scratch" Dockerfile (originally taken from [here
 
 ```editor:select-matching-text
 file: ~/demo/07.Dockerfile
-text: "RUN jlink \"
+text: "RUN jlink"
 after: 14
 ```
 

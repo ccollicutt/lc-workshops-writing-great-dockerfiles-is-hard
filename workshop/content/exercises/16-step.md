@@ -3,4 +3,5 @@ Another issue is that applications, even in the same language or framework, will
 ```editor:select-matching-text
 file: ~/demo/16.Dockerfile
 text: "COPY modules/frontend/pom.xml"
+after: 1
 ```
